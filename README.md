@@ -142,10 +142,8 @@ roslaunch launch/site.launch
 ```
 5. Confirm that traffic light detection works on real life images
 
-### Result:
- As mentioned in [Issue-294](https://github.com/udacity/CarND-Capstone/issues/294).
- There is a performance Issue in Simulator and ROS-Nodes that prevented /current-pose to sent on time; thus - the Car may get off-track, if there are no points to follow.
- 
+### Results:
+
  Traffic-Light Detection in Simulation:
 
 ![image alt text](imgs/output_26_0.png)
@@ -160,8 +158,14 @@ Traffic-Light Detection in Site:
 
  A simulation-video can be found under: [/video](https://github.com/essamabas/CarND/tree/master/Term2/CarND-Capstone/video)
 
+[![Visual Car On the Track Video](imgs/unity.png)](https://youtu.be/z7K150JBg9U)
+
 ### Tips:
 
+
+ As mentioned in [Issue-294](https://github.com/udacity/CarND-Capstone/issues/294).
+ There is a performance Issue in Simulator and ROS-Nodes that prevented /current-pose to sent on time; thus - the Car may get off-track, if there are no points to follow.
+ 
 1. Catkin Packages not found
 
     ```bash
