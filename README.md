@@ -68,7 +68,7 @@ See code in [/ros/src/waypoint_follower/](https://github.com/essamabas/CarND-Cap
 ### Training Steps:
 The main part of the Traffic-Light Detection Node is a Traffic Light Detection and Classifier that has been implemented using
  [Tensor Flow Object Dection API](https://github.com/tensorflow/models/tree/master/research/object_detection).
- More about Trainning-Steps and Integration into the Code - can be found under: [/ros/src/tl_detector/light_classification/training/Traffic-Light-Detection.ipynb](https://github.com/essamabas/CarND/tree/master/Term2/CarND-Capstone//ros/src/tl_detector/light_classification/training/Traffic-Light-Detection.ipynb).
+ More about Trainning-Steps and Integration into the Code - can be found under: [/ros/src/tl_detector/light_classification/training/Traffic-Light-Detection.ipynb](https://github.com/essamabas/CarND/tree/master/Term2/CarND-Capstone/ros/src/tl_detector/light_classification/training/Traffic-Light-Detection.ipynb).
 
 
 ### Native Installation
@@ -156,7 +156,7 @@ Traffic-Light Detection in Site:
 ![image alt text](imgs/output_29_0.png)
 ![image alt text](imgs/output_29_1.png)
 
- More about Trainning-Steps and Integration into the Code - can be found under: [/ros/src/tl_detector/light_classification/training/Traffic-Light-Detection.ipynb](https://github.com/essamabas/CarND/tree/master/Term2/CarND-Capstone//ros/src/tl_detector/light_classification/training/Traffic-Light-Detection.ipynb).
+ More about Trainning-Steps and Integration into the Code - can be found under: [/ros/src/tl_detector/light_classification/training/Traffic-Light-Detection.ipynb](https://github.com/essamabas/CarND/tree/master/Term2/CarND-Capstone/ros/src/tl_detector/light_classification/training/Traffic-Light-Detection.ipynb).
 
  A simulation-video can be found under: [/video](https://github.com/essamabas/CarND/tree/master/Term2/CarND-Capstone/video)
 
