@@ -116,7 +116,7 @@ class TLDetector(object):
                 self.save_img(self.camera_image, 4)
 
             light_wp, state = self.process_traffic_lights()
-            # rospy.logwarn("Closest light wp: {0} \n And light state: {1}".format(light_wp, state))
+            #rospy.logwarn("Closest light wp: {0} \n And light state: {1}".format(light_wp, state))
 
 
             '''

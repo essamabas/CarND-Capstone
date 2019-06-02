@@ -3,15 +3,19 @@
 
 pushd ../ros
 
+#rosdep update
 
-#rm -rf /root/.ros/*
-#rm -rf ../log/*
+find . -name '*.pyc' -delete
+catkin_make clean
 
-# rosdep update
+rm -rf /root/.ros/*
+rm -rf ../log/*
+
+
 catkin_make
 source devel/setup.sh
 roslaunch launch/styx.launch
 
-#cp -R /root/.ros/ ../log
+cp -R /root/.ros/ ../log
 
 popd
