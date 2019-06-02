@@ -1,0 +1,10 @@
+[DEBUG] [1559487359.831961]: init_node, name[/waypoint_loader], pid[11840]
+[DEBUG] [1559487359.832369]: binding to 0.0.0.0 0
+[DEBUG] [1559487359.832631]: bound to 0.0.0.0 41651
+[DEBUG] [1559487359.833180]: ... service URL is rosrpc://a917bedbf8a8:41651
+[DEBUG] [1559487359.833513]: [/waypoint_loader/get_loggers]: new Service instance
+[DEBUG] [1559487359.837556]: ... service URL is rosrpc://a917bedbf8a8:41651
+[DEBUG] [1559487359.837824]: [/waypoint_loader/set_logger_level]: new Service instance
+[INFO] [1559487360.725595]: Waypoint Loded
+[DEBUG] [1559487360.726807]: node[/waypoint_loader, http://a917bedbf8a8:38449/] entering spin(), pid[11840]
+[DEBUG] [1559487448.027297]: TCPServer[41651] shutting down

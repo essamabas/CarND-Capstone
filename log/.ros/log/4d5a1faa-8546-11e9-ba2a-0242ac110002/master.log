@@ -1,0 +1,77 @@
+[rosmaster.main][INFO] 2019-06-02 14:54:21,916: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2019-06-02 14:54:21,916: Starting ROS Master Node
+[xmlrpc][INFO] 2019-06-02 14:54:21,917: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2019-06-02 14:54:21,918: Started XML-RPC server [http://a917bedbf8a8:11311/]
+[xmlrpc][INFO] 2019-06-02 14:54:21,918: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2019-06-02 14:54:21,918: Master initialized: port[11311], uri[http://a917bedbf8a8:11311/]
+[rosmaster.master][INFO] 2019-06-02 14:54:22,027: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2019-06-02 14:54:22,035: +PARAM [/roslaunch/uris/host_a917bedbf8a8__40489] by /roslaunch
+[rosmaster.master][INFO] 2019-06-02 14:54:22,537: +PARAM [/dbw_node/decel_limit] by /roslaunch
+[rosmaster.master][INFO] 2019-06-02 14:54:22,537: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2019-06-02 14:54:22,537: +PARAM [/dbw_node/vehicle_mass] by /roslaunch
+[rosmaster.master][INFO] 2019-06-02 14:54:22,537: +PARAM [/pure_pursuit/linear_interpolate_mode] by /roslaunch
+[rosmaster.master][INFO] 2019-06-02 14:54:22,537: +PARAM [/dbw_node/wheel_radius] by /roslaunch
+[rosmaster.master][INFO] 2019-06-02 14:54:22,537: +PARAM [/dbw_node/brake_deadband] by /roslaunch
+[rosmaster.master][INFO] 2019-06-02 14:54:22,538: +PARAM [/waypoint_loader/path] by /roslaunch
+[rosmaster.master][INFO] 2019-06-02 14:54:22,538: +PARAM [/dbw_node/steer_ratio] by /roslaunch
+[rosmaster.master][INFO] 2019-06-02 14:54:22,538: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2019-06-02 14:54:22,538: +PARAM [/dbw_node/wheel_base] by /roslaunch
+[rosmaster.master][INFO] 2019-06-02 14:54:22,538: +PARAM [/dbw_node/max_steer_angle] by /roslaunch
+[rosmaster.master][INFO] 2019-06-02 14:54:22,538: +PARAM [/dbw_node/max_lat_accel] by /roslaunch
+[rosmaster.master][INFO] 2019-06-02 14:54:22,538: +PARAM [/dbw_node/fuel_capacity] by /roslaunch
+[rosmaster.master][INFO] 2019-06-02 14:54:22,538: +PARAM [/waypoint_loader/velocity] by /roslaunch
+[rosmaster.master][INFO] 2019-06-02 14:54:22,538: +PARAM [/traffic_light_config] by /roslaunch
+[rosmaster.master][INFO] 2019-06-02 14:54:22,538: +PARAM [/dbw_node/accel_limit] by /roslaunch
+[rosmaster.master][INFO] 2019-06-02 14:54:22,562: +SERVICE [/rosout/get_loggers] /rosout http://a917bedbf8a8:45285/
+[rosmaster.master][INFO] 2019-06-02 14:54:22,563: +SERVICE [/rosout/set_logger_level] /rosout http://a917bedbf8a8:45285/
+[rosmaster.master][INFO] 2019-06-02 14:54:22,567: +PUB [/rosout_agg] /rosout http://a917bedbf8a8:45285/
+[rosmaster.master][INFO] 2019-06-02 14:54:22,575: +SUB [/rosout] /rosout http://a917bedbf8a8:45285/
+[rosmaster.master][INFO] 2019-06-02 14:54:24,645: +PUB [/rosout] /dbw_node http://a917bedbf8a8:40957/
+[rosmaster.master][INFO] 2019-06-02 14:54:24,651: +SERVICE [/dbw_node/get_loggers] /dbw_node http://a917bedbf8a8:40957/
+[rosmaster.master][INFO] 2019-06-02 14:54:24,654: +SERVICE [/dbw_node/set_logger_level] /dbw_node http://a917bedbf8a8:40957/
+[rosmaster.master][INFO] 2019-06-02 14:54:24,690: +PUB [/vehicle/steering_cmd] /dbw_node http://a917bedbf8a8:40957/
+[rosmaster.master][INFO] 2019-06-02 14:54:24,692: +PUB [/vehicle/throttle_cmd] /dbw_node http://a917bedbf8a8:40957/
+[rosmaster.master][INFO] 2019-06-02 14:54:24,694: +PUB [/vehicle/brake_cmd] /dbw_node http://a917bedbf8a8:40957/
+[rosmaster.master][INFO] 2019-06-02 14:54:24,698: +SUB [/vehicle/dbw_enabled] /dbw_node http://a917bedbf8a8:40957/
+[rosmaster.master][INFO] 2019-06-02 14:54:24,703: +SUB [/twist_cmd] /dbw_node http://a917bedbf8a8:40957/
+[rosmaster.master][INFO] 2019-06-02 14:54:24,707: +SUB [/current_velocity] /dbw_node http://a917bedbf8a8:40957/
+[rosmaster.master][INFO] 2019-06-02 14:54:24,723: publisherUpdate[/rosout] -> http://a917bedbf8a8:45285/ ['http://a917bedbf8a8:40957/']
+[rosmaster.master][INFO] 2019-06-02 14:54:24,726: publisherUpdate[/rosout] -> http://a917bedbf8a8:45285/ ['http://a917bedbf8a8:40957/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-02 14:54:24,910: +PUB [/rosout] /pure_pursuit http://a917bedbf8a8:36569/
+[rosmaster.master][INFO] 2019-06-02 14:54:24,912: +SERVICE [/pure_pursuit/get_loggers] /pure_pursuit http://a917bedbf8a8:36569/
+[rosmaster.master][INFO] 2019-06-02 14:54:24,913: +SERVICE [/pure_pursuit/set_logger_level] /pure_pursuit http://a917bedbf8a8:36569/
+[rosmaster.master][INFO] 2019-06-02 14:54:24,920: +PUB [/twist_cmd] /pure_pursuit http://a917bedbf8a8:36569/
+[rosmaster.master][INFO] 2019-06-02 14:54:24,924: publisherUpdate[/rosout] -> http://a917bedbf8a8:45285/ ['http://a917bedbf8a8:40957/', 'http://a917bedbf8a8:36569/']
+[rosmaster.master][INFO] 2019-06-02 14:54:24,925: publisherUpdate[/twist_cmd] -> http://a917bedbf8a8:40957/ ['http://a917bedbf8a8:36569/']
+[rosmaster.master][INFO] 2019-06-02 14:54:24,929: publisherUpdate[/rosout] -> http://a917bedbf8a8:45285/ ['http://a917bedbf8a8:40957/', 'http://a917bedbf8a8:36569/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-02 14:54:24,931: publisherUpdate[/twist_cmd] -> http://a917bedbf8a8:40957/ ['http://a917bedbf8a8:36569/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-02 14:54:24,931: +SUB [/final_waypoints] /pure_pursuit http://a917bedbf8a8:36569/
+[rosmaster.master][INFO] 2019-06-02 14:54:24,939: +SUB [/current_pose] /pure_pursuit http://a917bedbf8a8:36569/
+[rosmaster.master][INFO] 2019-06-02 14:54:24,946: +SUB [/current_velocity] /pure_pursuit http://a917bedbf8a8:36569/
+[rosmaster.master][INFO] 2019-06-02 14:55:02,342: -SUB [/current_velocity] /dbw_node http://a917bedbf8a8:40957/
+[rosmaster.master][INFO] 2019-06-02 14:55:02,342: -SUB [/twist_cmd] /dbw_node http://a917bedbf8a8:40957/
+[rosmaster.master][INFO] 2019-06-02 14:55:02,342: -SUB [/vehicle/dbw_enabled] /dbw_node http://a917bedbf8a8:40957/
+[rosmaster.master][INFO] 2019-06-02 14:55:02,342: -PUB [/vehicle/throttle_cmd] /dbw_node http://a917bedbf8a8:40957/
+[rosmaster.master][INFO] 2019-06-02 14:55:02,342: -PUB [/rosout] /dbw_node http://a917bedbf8a8:40957/
+[rosmaster.master][INFO] 2019-06-02 14:55:02,342: -PUB [/vehicle/steering_cmd] /dbw_node http://a917bedbf8a8:40957/
+[rosmaster.master][INFO] 2019-06-02 14:55:02,342: -PUB [/vehicle/brake_cmd] /dbw_node http://a917bedbf8a8:40957/
+[rosmaster.master][INFO] 2019-06-02 14:55:02,343: -SERVICE [/dbw_node/set_logger_level] /dbw_node rosrpc://a917bedbf8a8:43003
+[rosmaster.master][INFO] 2019-06-02 14:55:02,343: -SERVICE [/dbw_node/get_loggers] /dbw_node rosrpc://a917bedbf8a8:43003
+[rosmaster.master][INFO] 2019-06-02 14:55:02,430: -PUB [/rosout] /pure_pursuit http://a917bedbf8a8:36569/
+[rosmaster.master][INFO] 2019-06-02 14:55:02,431: publisherUpdate[/rosout] -> http://a917bedbf8a8:45285/ ['http://a917bedbf8a8:36569/']
+[rosmaster.master][INFO] 2019-06-02 14:55:02,432: publisherUpdate[/rosout] -> http://a917bedbf8a8:45285/ ['http://a917bedbf8a8:36569/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-02 14:55:02,433: publisherUpdate[/rosout] -> http://a917bedbf8a8:45285/ []
+[rosmaster.master][INFO] 2019-06-02 14:55:02,433: publisherUpdate[/rosout] -> http://a917bedbf8a8:45285/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-06-02 14:55:02,434: -PUB [/twist_cmd] /pure_pursuit http://a917bedbf8a8:36569/
+[rosmaster.master][INFO] 2019-06-02 14:55:02,436: -SUB [/final_waypoints] /pure_pursuit http://a917bedbf8a8:36569/
+[rosmaster.master][INFO] 2019-06-02 14:55:02,437: -SUB [/current_pose] /pure_pursuit http://a917bedbf8a8:36569/
+[rosmaster.master][INFO] 2019-06-02 14:55:02,439: -SUB [/current_velocity] /pure_pursuit http://a917bedbf8a8:36569/
+[rosmaster.master][INFO] 2019-06-02 14:55:02,441: -SERVICE [/pure_pursuit/get_loggers] /pure_pursuit rosrpc://a917bedbf8a8:43313
+[rosmaster.master][INFO] 2019-06-02 14:55:02,442: -SERVICE [/pure_pursuit/set_logger_level] /pure_pursuit rosrpc://a917bedbf8a8:43313
+[rosmaster.master][INFO] 2019-06-02 14:55:17,766: -PUB [/rosout_agg] /rosout http://a917bedbf8a8:45285/
+[rosmaster.master][INFO] 2019-06-02 14:55:17,767: -SUB [/rosout] /rosout http://a917bedbf8a8:45285/
+[rosmaster.master][INFO] 2019-06-02 14:55:17,768: -SERVICE [/rosout/get_loggers] /rosout rosrpc://a917bedbf8a8:42249
+[rosmaster.master][INFO] 2019-06-02 14:55:17,771: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://a917bedbf8a8:42249
+[rosmaster.main][INFO] 2019-06-02 14:55:17,776: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2019-06-02 14:55:17,776: stopping master...
+[rospy.core][INFO] 2019-06-02 14:55:17,776: signal_shutdown [atexit]

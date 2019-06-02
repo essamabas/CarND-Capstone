@@ -1,0 +1,51 @@
+[rospy.client][INFO] 2019-06-02 14:55:58,456: init_node, name[/dbw_node], pid[11838]
+[xmlrpc][INFO] 2019-06-02 14:55:58,457: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-06-02 14:55:58,457: Started XML-RPC server [http://a917bedbf8a8:46003/]
+[rospy.init][INFO] 2019-06-02 14:55:58,458: ROS Slave URI: [http://a917bedbf8a8:46003/]
+[rospy.impl.masterslave][INFO] 2019-06-02 14:55:58,458: _ready: http://a917bedbf8a8:46003/
+[xmlrpc][INFO] 2019-06-02 14:55:58,459: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2019-06-02 14:55:58,460: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2019-06-02 14:55:58,559: registered with master
+[rospy.rosout][INFO] 2019-06-02 14:55:58,559: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-06-02 14:55:58,562: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-06-02 14:55:58,565: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2019-06-02 14:55:58,626: topic[/twist_cmd] adding connection to [http://a917bedbf8a8:37157/], count 0
+[rospy.internal][INFO] 2019-06-02 14:55:58,795: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2019-06-02 14:55:59,148: topic[/vehicle/brake_cmd] adding connection to [/styx_server], count 0
+[rospy.internal][INFO] 2019-06-02 14:55:59,154: topic[/vehicle/throttle_cmd] adding connection to [/styx_server], count 0
+[rospy.internal][INFO] 2019-06-02 14:55:59,158: topic[/vehicle/steering_cmd] adding connection to [/styx_server], count 0
+[rospy.internal][INFO] 2019-06-02 14:55:59,244: topic[/vehicle/dbw_enabled] adding connection to [http://a917bedbf8a8:40967/], count 0
+[rospy.internal][INFO] 2019-06-02 14:55:59,250: topic[/current_velocity] adding connection to [http://a917bedbf8a8:40967/], count 0
+[rospy.core][INFO] 2019-06-02 14:57:27,946: signal_shutdown [signal-2]
+[rospy.internal][ERROR] 2019-06-02 14:57:27,955: Unable to initiate TCP/IP socket to a917bedbf8a8:46353 (http://a917bedbf8a8:40967/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][ERROR] 2019-06-02 14:57:27,958: Unable to initiate TCP/IP socket to a917bedbf8a8:46353 (http://a917bedbf8a8:40967/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][INFO] 2019-06-02 14:57:27,964: topic[/vehicle/throttle_cmd] removing connection to /styx_server
+[rospy.internal][INFO] 2019-06-02 14:57:27,980: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2019-06-02 14:57:27,987: topic[/vehicle/steering_cmd] removing connection to /styx_server
+[rospy.internal][INFO] 2019-06-02 14:57:27,988: topic[/vehicle/brake_cmd] removing connection to /styx_server
+[rospy.internal][INFO] 2019-06-02 14:57:28,002: topic[/current_velocity] removing connection to http://a917bedbf8a8:40967/
+[rospy.internal][INFO] 2019-06-02 14:57:28,008: topic[/twist_cmd] removing connection to http://a917bedbf8a8:37157/
+[rospy.internal][WARNING] 2019-06-02 14:57:28,009: Unknown error initiating TCP/IP socket to a917bedbf8a8:45693 (http://a917bedbf8a8:37157/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.internal][INFO] 2019-06-02 14:57:28,009: topic[/vehicle/dbw_enabled] removing connection to http://a917bedbf8a8:40967/
+[rospy.impl.masterslave][INFO] 2019-06-02 14:57:28,010: signal-2
+[rospy.core][INFO] 2019-06-02 14:57:28,578: signal_shutdown [atexit]

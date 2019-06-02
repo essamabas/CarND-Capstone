@@ -1,0 +1,30 @@
+[rospy.client][INFO] 2019-06-02 15:06:27,642: init_node, name[/waypoint_loader], pid[15016]
+[xmlrpc][INFO] 2019-06-02 15:06:27,642: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-06-02 15:06:27,643: Started XML-RPC server [http://a917bedbf8a8:45191/]
+[rospy.init][INFO] 2019-06-02 15:06:27,643: ROS Slave URI: [http://a917bedbf8a8:45191/]
+[rospy.impl.masterslave][INFO] 2019-06-02 15:06:27,644: _ready: http://a917bedbf8a8:45191/
+[xmlrpc][INFO] 2019-06-02 15:06:27,645: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2019-06-02 15:06:27,646: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2019-06-02 15:06:27,744: registered with master
+[rospy.rosout][INFO] 2019-06-02 15:06:27,745: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-06-02 15:06:27,749: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-06-02 15:06:27,752: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][DEBUG] 2019-06-02 15:06:27,752: init_node, name[/waypoint_loader], pid[15016]
+[rosout][DEBUG] 2019-06-02 15:06:27,752: binding to 0.0.0.0 0
+[rosout][DEBUG] 2019-06-02 15:06:27,753: bound to 0.0.0.0 43475
+[rosout][DEBUG] 2019-06-02 15:06:27,753: ... service URL is rosrpc://a917bedbf8a8:43475
+[rosout][DEBUG] 2019-06-02 15:06:27,753: [/waypoint_loader/get_loggers]: new Service instance
+[rosout][DEBUG] 2019-06-02 15:06:27,756: ... service URL is rosrpc://a917bedbf8a8:43475
+[rosout][DEBUG] 2019-06-02 15:06:27,756: [/waypoint_loader/set_logger_level]: new Service instance
+[rospy.internal][INFO] 2019-06-02 15:06:27,813: topic[/base_waypoints] adding connection to [/waypoint_updater], count 0
+[rospy.internal][INFO] 2019-06-02 15:06:27,959: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2019-06-02 15:06:28,411: Waypoint Loded
+[rosout][DEBUG] 2019-06-02 15:06:28,412: node[/waypoint_loader, http://a917bedbf8a8:45191/] entering spin(), pid[15016]
+[rospy.internal][INFO] 2019-06-02 15:06:31,659: topic[/base_waypoints] adding connection to [/tl_detector], count 1
+[rospy.core][INFO] 2019-06-02 15:07:54,872: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2019-06-02 15:07:54,903: topic[/base_waypoints] removing connection to /waypoint_updater
+[rospy.internal][INFO] 2019-06-02 15:07:54,916: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2019-06-02 15:07:54,917: topic[/base_waypoints] removing connection to /tl_detector
+[rospy.impl.masterslave][INFO] 2019-06-02 15:07:54,917: signal-2
+[rosout][DEBUG] 2019-06-02 15:07:54,917: TCPServer[43475] shutting down
+[rospy.core][INFO] 2019-06-02 15:07:55,535: signal_shutdown [atexit]

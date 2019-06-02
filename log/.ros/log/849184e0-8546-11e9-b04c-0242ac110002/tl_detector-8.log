@@ -1,0 +1,216 @@
+[rospy.client][INFO] 2019-06-02 14:56:01,731: init_node, name[/tl_detector], pid[11916]
+[xmlrpc][INFO] 2019-06-02 14:56:01,732: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-06-02 14:56:01,733: Started XML-RPC server [http://a917bedbf8a8:33249/]
+[rospy.init][INFO] 2019-06-02 14:56:01,733: ROS Slave URI: [http://a917bedbf8a8:33249/]
+[rospy.impl.masterslave][INFO] 2019-06-02 14:56:01,734: _ready: http://a917bedbf8a8:33249/
+[rospy.registration][INFO] 2019-06-02 14:56:01,735: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2019-06-02 14:56:01,736: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2019-06-02 14:56:01,834: registered with master
+[rospy.rosout][INFO] 2019-06-02 14:56:01,834: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-06-02 14:56:01,838: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-06-02 14:56:01,840: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2019-06-02 14:56:01,861: topic[/tf] adding connection to [http://a917bedbf8a8:40967/], count 0
+[rospy.internal][INFO] 2019-06-02 14:56:02,113: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2019-06-02 14:56:04,187: topic[/base_waypoints] adding connection to [http://a917bedbf8a8:38449/], count 0
+[rospy.internal][INFO] 2019-06-02 14:56:04,192: topic[/vehicle/traffic_lights] adding connection to [http://a917bedbf8a8:40967/], count 0
+[rospy.internal][INFO] 2019-06-02 14:56:04,195: topic[/image_color] adding connection to [http://a917bedbf8a8:40967/], count 0
+[rospy.internal][INFO] 2019-06-02 14:56:04,199: topic[/current_pose] adding connection to [http://a917bedbf8a8:40967/], count 0
+[rospy.internal][INFO] 2019-06-02 14:56:04,255: topic[/traffic_waypoint] adding connection to [/waypoint_updater], count 0
+[rosout][INFO] 2019-06-02 14:56:04,658: image received
+[rosout][INFO] 2019-06-02 14:56:05,302: image received
+[rosout][INFO] 2019-06-02 14:56:05,699: image received
+[rosout][INFO] 2019-06-02 14:56:06,237: image received
+[rosout][INFO] 2019-06-02 14:56:06,773: image received
+[rosout][INFO] 2019-06-02 14:56:07,458: image received
+[rosout][INFO] 2019-06-02 14:56:08,168: image received
+[rosout][INFO] 2019-06-02 14:56:08,811: image received
+[rosout][INFO] 2019-06-02 14:56:09,465: image received
+[rosout][INFO] 2019-06-02 14:56:10,137: image received
+[rosout][INFO] 2019-06-02 14:56:10,805: image received
+[rosout][INFO] 2019-06-02 14:56:11,499: image received
+[rosout][INFO] 2019-06-02 14:56:12,126: image received
+[rosout][INFO] 2019-06-02 14:56:12,869: image received
+[rosout][INFO] 2019-06-02 14:56:13,479: image received
+[rosout][INFO] 2019-06-02 14:56:14,180: image received
+[rosout][INFO] 2019-06-02 14:56:14,793: image received
+[rosout][INFO] 2019-06-02 14:56:15,494: image received
+[rosout][INFO] 2019-06-02 14:56:16,218: image received
+[rosout][INFO] 2019-06-02 14:56:16,876: image received
+[rosout][INFO] 2019-06-02 14:56:17,574: image received
+[rosout][INFO] 2019-06-02 14:56:18,318: image received
+[rosout][INFO] 2019-06-02 14:56:19,015: image received
+[rosout][INFO] 2019-06-02 14:56:19,740: image received
+[rosout][INFO] 2019-06-02 14:56:20,379: image received
+[rosout][INFO] 2019-06-02 14:56:21,071: image received
+[rosout][INFO] 2019-06-02 14:56:21,790: image received
+[rosout][INFO] 2019-06-02 14:56:22,481: image received
+[rosout][INFO] 2019-06-02 14:56:23,140: image received
+[rosout][INFO] 2019-06-02 14:56:23,801: image received
+[rosout][INFO] 2019-06-02 14:56:24,515: image received
+[rosout][INFO] 2019-06-02 14:56:25,241: image received
+[rosout][INFO] 2019-06-02 14:56:26,057: image received
+[rosout][INFO] 2019-06-02 14:56:26,744: image received
+[rosout][INFO] 2019-06-02 14:56:27,469: image received
+[rosout][INFO] 2019-06-02 14:56:28,190: image received
+[rosout][INFO] 2019-06-02 14:56:28,978: image received
+[rosout][INFO] 2019-06-02 14:56:29,677: image received
+[rosout][INFO] 2019-06-02 14:56:30,361: image received
+[rosout][INFO] 2019-06-02 14:56:31,104: image received
+[rosout][INFO] 2019-06-02 14:56:31,802: image received
+[rosout][INFO] 2019-06-02 14:56:32,564: image received
+[rosout][INFO] 2019-06-02 14:56:33,068: image received
+[rosout][INFO] 2019-06-02 14:56:33,486: image received
+[rosout][INFO] 2019-06-02 14:56:33,941: image received
+[rosout][INFO] 2019-06-02 14:56:34,392: image received
+[rosout][INFO] 2019-06-02 14:56:35,106: image received
+[rosout][INFO] 2019-06-02 14:56:35,588: image received
+[rosout][INFO] 2019-06-02 14:56:36,049: image received
+[rosout][INFO] 2019-06-02 14:56:36,456: image received
+[rosout][INFO] 2019-06-02 14:56:36,904: image received
+[rosout][INFO] 2019-06-02 14:56:37,379: image received
+[rosout][INFO] 2019-06-02 14:56:37,924: image received
+[rosout][INFO] 2019-06-02 14:56:38,397: image received
+[rosout][INFO] 2019-06-02 14:56:38,901: image received
+[rosout][INFO] 2019-06-02 14:56:39,381: image received
+[rosout][INFO] 2019-06-02 14:56:39,889: image received
+[rosout][INFO] 2019-06-02 14:56:40,423: image received
+[rosout][INFO] 2019-06-02 14:56:40,872: image received
+[rosout][INFO] 2019-06-02 14:56:41,378: image received
+[rosout][INFO] 2019-06-02 14:56:41,878: image received
+[rosout][INFO] 2019-06-02 14:56:42,383: image received
+[rosout][INFO] 2019-06-02 14:56:42,911: image received
+[rosout][INFO] 2019-06-02 14:56:43,417: image received
+[rosout][INFO] 2019-06-02 14:56:43,876: image received
+[rosout][INFO] 2019-06-02 14:56:44,422: image received
+[rosout][INFO] 2019-06-02 14:56:44,900: image received
+[rosout][INFO] 2019-06-02 14:56:45,401: image received
+[rosout][INFO] 2019-06-02 14:56:45,907: image received
+[rosout][INFO] 2019-06-02 14:56:46,417: image received
+[rosout][INFO] 2019-06-02 14:56:46,896: image received
+[rosout][INFO] 2019-06-02 14:56:47,372: image received
+[rosout][INFO] 2019-06-02 14:56:47,877: image received
+[rosout][INFO] 2019-06-02 14:56:48,377: image received
+[rosout][INFO] 2019-06-02 14:56:48,896: image received
+[rosout][INFO] 2019-06-02 14:56:49,388: image received
+[rosout][INFO] 2019-06-02 14:56:49,881: image received
+[rosout][INFO] 2019-06-02 14:56:50,378: image received
+[rosout][INFO] 2019-06-02 14:56:50,880: image received
+[rosout][INFO] 2019-06-02 14:56:51,394: image received
+[rosout][INFO] 2019-06-02 14:56:51,865: image received
+[rosout][INFO] 2019-06-02 14:56:52,392: image received
+[rosout][INFO] 2019-06-02 14:56:52,887: image received
+[rosout][INFO] 2019-06-02 14:56:53,397: image received
+[rosout][INFO] 2019-06-02 14:56:53,885: image received
+[rosout][INFO] 2019-06-02 14:56:54,397: image received
+[rosout][INFO] 2019-06-02 14:56:54,893: image received
+[rosout][INFO] 2019-06-02 14:56:55,374: image received
+[rosout][INFO] 2019-06-02 14:56:55,868: image received
+[rosout][INFO] 2019-06-02 14:56:56,380: image received
+[rosout][INFO] 2019-06-02 14:56:56,890: image received
+[rosout][INFO] 2019-06-02 14:56:57,368: image received
+[rosout][INFO] 2019-06-02 14:56:57,895: image received
+[rosout][INFO] 2019-06-02 14:56:58,393: image received
+[rosout][INFO] 2019-06-02 14:56:58,892: image received
+[rosout][INFO] 2019-06-02 14:56:59,396: image received
+[rosout][INFO] 2019-06-02 14:56:59,880: image received
+[rosout][INFO] 2019-06-02 14:57:00,421: image received
+[rosout][INFO] 2019-06-02 14:57:00,921: image received
+[rosout][INFO] 2019-06-02 14:57:01,402: image received
+[rosout][INFO] 2019-06-02 14:57:01,876: image received
+[rosout][INFO] 2019-06-02 14:57:02,409: image received
+[rosout][INFO] 2019-06-02 14:57:02,929: image received
+[rosout][INFO] 2019-06-02 14:57:03,415: image received
+[rosout][INFO] 2019-06-02 14:57:03,904: image received
+[rosout][INFO] 2019-06-02 14:57:04,376: image received
+[rosout][INFO] 2019-06-02 14:57:04,887: image received
+[rosout][INFO] 2019-06-02 14:57:05,383: image received
+[rosout][INFO] 2019-06-02 14:57:05,892: image received
+[rosout][INFO] 2019-06-02 14:57:06,406: image received
+[rosout][INFO] 2019-06-02 14:57:06,967: image received
+[rosout][INFO] 2019-06-02 14:57:07,630: image received
+[rosout][INFO] 2019-06-02 14:57:08,312: image received
+[rosout][INFO] 2019-06-02 14:57:08,968: image received
+[rosout][INFO] 2019-06-02 14:57:09,599: image received
+[rosout][INFO] 2019-06-02 14:57:10,265: image received
+[rosout][INFO] 2019-06-02 14:57:10,890: image received
+[rosout][INFO] 2019-06-02 14:57:11,507: image received
+[rosout][INFO] 2019-06-02 14:57:12,084: image received
+[rosout][INFO] 2019-06-02 14:57:12,678: image received
+[rosout][INFO] 2019-06-02 14:57:13,478: image received
+[rosout][INFO] 2019-06-02 14:57:14,109: image received
+[rosout][INFO] 2019-06-02 14:57:14,739: image received
+[rosout][INFO] 2019-06-02 14:57:15,400: image received
+[rosout][INFO] 2019-06-02 14:57:16,059: image received
+[rosout][INFO] 2019-06-02 14:57:16,698: image received
+[rosout][INFO] 2019-06-02 14:57:17,363: image received
+[rosout][INFO] 2019-06-02 14:57:18,000: image received
+[rosout][INFO] 2019-06-02 14:57:18,480: image received
+[rosout][INFO] 2019-06-02 14:57:18,899: image received
+[rosout][INFO] 2019-06-02 14:57:19,305: image received
+[rosout][INFO] 2019-06-02 14:57:19,670: image received
+[rosout][INFO] 2019-06-02 14:57:20,089: image received
+[rosout][INFO] 2019-06-02 14:57:20,528: image received
+[rosout][INFO] 2019-06-02 14:57:20,943: image received
+[rosout][INFO] 2019-06-02 14:57:21,371: image received
+[rosout][INFO] 2019-06-02 14:57:21,788: image received
+[rosout][INFO] 2019-06-02 14:57:22,206: image received
+[rosout][INFO] 2019-06-02 14:57:22,625: image received
+[rosout][INFO] 2019-06-02 14:57:23,166: image received
+[rosout][INFO] 2019-06-02 14:57:23,636: image received
+[rosout][INFO] 2019-06-02 14:57:24,257: image received
+[rosout][INFO] 2019-06-02 14:57:24,876: image received
+[rosout][INFO] 2019-06-02 14:57:25,543: image received
+[rospy.core][INFO] 2019-06-02 14:57:27,925: signal_shutdown [signal-2]
+[rospy.internal][ERROR] 2019-06-02 14:57:27,959: Unable to initiate TCP/IP socket to a917bedbf8a8:46353 (http://a917bedbf8a8:40967/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][INFO] 2019-06-02 14:57:27,969: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2019-06-02 14:57:27,969: topic[/traffic_waypoint] removing connection to /waypoint_updater
+[rospy.internal][INFO] 2019-06-02 14:57:27,970: topic[/base_waypoints] removing connection to http://a917bedbf8a8:38449/
+[rospy.internal][INFO] 2019-06-02 14:57:27,970: topic[/current_pose] removing connection to http://a917bedbf8a8:40967/
+[rospy.internal][INFO] 2019-06-02 14:57:27,971: topic[/tf] removing connection to http://a917bedbf8a8:40967/
+[rospy.internal][INFO] 2019-06-02 14:57:27,971: topic[/vehicle/traffic_lights] removing connection to http://a917bedbf8a8:40967/
+[rospy.internal][WARNING] 2019-06-02 14:57:27,971: Unknown error initiating TCP/IP socket to a917bedbf8a8:46353 (http://a917bedbf8a8:40967/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 364, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2019-06-02 14:57:27,972: topic[/image_color] removing connection to http://a917bedbf8a8:40967/
+[rospy.internal][INFO] 2019-06-02 14:57:27,972: topic[/image_color] removing connection to http://a917bedbf8a8:40967/
+[rospy.topics][ERROR] 2019-06-02 14:57:27,972: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 326, in close
+    c.close()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 838, in close
+    self.socket.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+
+[rospy.impl.masterslave][INFO] 2019-06-02 14:57:27,973: signal-2
+[rospy.internal][WARNING] 2019-06-02 14:57:27,986: Unknown error initiating TCP/IP socket to a917bedbf8a8:46353 (http://a917bedbf8a8:40967/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 362, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][WARNING] 2019-06-02 14:57:27,987: Unknown error initiating TCP/IP socket to a917bedbf8a8:46353 (http://a917bedbf8a8:40967/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 364, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.core][INFO] 2019-06-02 14:57:28,661: signal_shutdown [atexit]

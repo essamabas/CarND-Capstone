@@ -1,0 +1,112 @@
+[rospy.client][INFO] 2019-06-02 14:59:50,850: init_node, name[/styx_server], pid[12883]
+[xmlrpc][INFO] 2019-06-02 14:59:50,855: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-06-02 14:59:50,858: Started XML-RPC server [http://a917bedbf8a8:34543/]
+[rospy.impl.masterslave][INFO] 2019-06-02 14:59:50,859: _ready: http://a917bedbf8a8:34543/
+[rospy.init][INFO] 2019-06-02 14:59:50,859: ROS Slave URI: [http://a917bedbf8a8:34543/]
+[xmlrpc][INFO] 2019-06-02 14:59:50,860: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2019-06-02 14:59:50,861: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2019-06-02 14:59:50,962: registered with master
+[rospy.rosout][INFO] 2019-06-02 14:59:50,962: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-06-02 14:59:50,967: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-06-02 14:59:50,970: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2019-06-02 14:59:51,060: topic[/vehicle/brake_cmd] adding connection to [http://a917bedbf8a8:46093/], count 0
+[rospy.internal][INFO] 2019-06-02 14:59:51,071: topic[/vehicle/throttle_cmd] adding connection to [http://a917bedbf8a8:46093/], count 0
+[rospy.internal][INFO] 2019-06-02 14:59:51,089: topic[/vehicle/steering_cmd] adding connection to [http://a917bedbf8a8:46093/], count 0
+[rospy.internal][INFO] 2019-06-02 14:59:51,152: topic[/vehicle/dbw_enabled] adding connection to [/dbw_node], count 0
+[rospy.internal][INFO] 2019-06-02 14:59:51,158: topic[/current_velocity] adding connection to [/dbw_node], count 0
+[rospy.internal][INFO] 2019-06-02 14:59:51,227: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2019-06-02 14:59:51,334: topic[/current_velocity] adding connection to [/pure_pursuit], count 1
+[rospy.internal][INFO] 2019-06-02 14:59:51,336: topic[/current_pose] adding connection to [/pure_pursuit], count 0
+[rospy.internal][INFO] 2019-06-02 14:59:52,705: topic[/current_pose] adding connection to [/waypoint_updater], count 1
+[rospy.internal][INFO] 2019-06-02 14:59:52,751: topic[/final_waypoints] adding connection to [http://a917bedbf8a8:45811/], count 0
+[rospy.internal][INFO] 2019-06-02 14:59:55,708: topic[/vehicle/traffic_lights] adding connection to [/tl_detector], count 0
+[rospy.internal][INFO] 2019-06-02 14:59:55,709: topic[/current_pose] adding connection to [/tl_detector], count 2
+[rospy.internal][INFO] 2019-06-02 14:59:55,709: topic[/image_color] adding connection to [/tl_detector], count 0
+[rospy.internal][INFO] 2019-06-02 15:00:11,022: topic[/tf] adding connection to [/tl_detector], count 0
+[rospy.internal][ERROR] 2019-06-02 15:02:07,855: Unable to initiate TCP/IP socket to a917bedbf8a8:40989 (http://a917bedbf8a8:45811/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.core][INFO] 2019-06-02 15:02:07,865: signal_shutdown [signal-2]
+[rospy.internal][ERROR] 2019-06-02 15:02:07,877: Unable to initiate TCP/IP socket to a917bedbf8a8:42583 (http://a917bedbf8a8:46093/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][ERROR] 2019-06-02 15:02:07,880: Unable to initiate TCP/IP socket to a917bedbf8a8:42583 (http://a917bedbf8a8:46093/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][ERROR] 2019-06-02 15:02:07,884: Unable to initiate TCP/IP socket to a917bedbf8a8:42583 (http://a917bedbf8a8:46093/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.registration][WARNING] 2019-06-02 15:02:07,893: unclean shutdown
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/registration.py", line 374, in cleanup
+    multi()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1006, in __call__
+    return MultiCallIterator(self.__server.system.multicall(marshalled_list))
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1053, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 897, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 859, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 836, in connect
+    self.timeout, self.source_address)
+  File "/usr/local/lib/python2.7/dist-packages/eventlet/green/socket.py", line 53, in create_connection
+    sock.connect(sa)
+  File "/usr/local/lib/python2.7/dist-packages/eventlet/greenio/base.py", line 252, in connect
+    timeout_exc=socket.timeout("timed out"))
+  File "/usr/local/lib/python2.7/dist-packages/eventlet/greenio/base.py", line 203, in _trampoline
+    mark_as_closed=self._mark_as_closed)
+  File "/usr/local/lib/python2.7/dist-packages/eventlet/hubs/__init__.py", line 144, in trampoline
+    assert hub.greenlet is not current, 'do not call blocking functions from the mainloop'
+AssertionError: do not call blocking functions from the mainloop
+
+[rospy.internal][INFO] 2019-06-02 15:02:07,893: topic[/vehicle/dbw_enabled] removing connection to /dbw_node
+[rospy.internal][INFO] 2019-06-02 15:02:07,894: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2019-06-02 15:02:07,894: topic[/current_velocity] removing connection to /dbw_node
+[rospy.internal][INFO] 2019-06-02 15:02:07,895: topic[/current_velocity] removing connection to /pure_pursuit
+[rospy.internal][INFO] 2019-06-02 15:02:07,898: topic[/tf] removing connection to /tl_detector
+[rospy.internal][INFO] 2019-06-02 15:02:07,902: topic[/vehicle/traffic_lights] removing connection to /tl_detector
+[rospy.internal][INFO] 2019-06-02 15:02:07,904: topic[/current_pose] removing connection to /pure_pursuit
+[rospy.internal][INFO] 2019-06-02 15:02:07,905: topic[/current_pose] removing connection to /waypoint_updater
+[rospy.internal][INFO] 2019-06-02 15:02:07,907: topic[/current_pose] removing connection to /tl_detector
+[rospy.internal][INFO] 2019-06-02 15:02:07,909: topic[/image_color] removing connection to /tl_detector
+[rospy.internal][INFO] 2019-06-02 15:02:07,915: topic[/vehicle/throttle_cmd] removing connection to http://a917bedbf8a8:46093/
+[rospy.internal][INFO] 2019-06-02 15:02:07,931: topic[/final_waypoints] removing connection to http://a917bedbf8a8:45811/
+[rospy.internal][INFO] 2019-06-02 15:02:07,931: topic[/vehicle/steering_cmd] removing connection to http://a917bedbf8a8:46093/
+[rospy.internal][INFO] 2019-06-02 15:02:07,931: topic[/vehicle/brake_cmd] removing connection to http://a917bedbf8a8:46093/
+[rospy.impl.masterslave][INFO] 2019-06-02 15:02:07,932: signal-2
+[rospy.core][INFO] 2019-06-02 15:02:08,410: signal_shutdown [atexit]

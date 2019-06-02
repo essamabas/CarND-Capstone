@@ -1,0 +1,35 @@
+[rospy.client][INFO] 2019-06-02 14:59:52,578: init_node, name[/waypoint_updater], pid[12907]
+[xmlrpc][INFO] 2019-06-02 14:59:52,578: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2019-06-02 14:59:52,580: ROS Slave URI: [http://a917bedbf8a8:45811/]
+[xmlrpc][INFO] 2019-06-02 14:59:52,579: Started XML-RPC server [http://a917bedbf8a8:45811/]
+[rospy.impl.masterslave][INFO] 2019-06-02 14:59:52,580: _ready: http://a917bedbf8a8:45811/
+[xmlrpc][INFO] 2019-06-02 14:59:52,581: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2019-06-02 14:59:52,582: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2019-06-02 14:59:52,680: registered with master
+[rospy.rosout][INFO] 2019-06-02 14:59:52,681: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-06-02 14:59:52,684: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-06-02 14:59:52,686: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2019-06-02 14:59:52,701: topic[/current_pose] adding connection to [http://a917bedbf8a8:34543/], count 0
+[rospy.internal][INFO] 2019-06-02 14:59:52,707: topic[/base_waypoints] adding connection to [http://a917bedbf8a8:42147/], count 0
+[rospy.internal][INFO] 2019-06-02 14:59:52,754: topic[/final_waypoints] adding connection to [/styx_server], count 0
+[rospy.internal][INFO] 2019-06-02 14:59:52,937: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2019-06-02 14:59:52,940: topic[/final_waypoints] adding connection to [/pure_pursuit], count 1
+[rospy.internal][INFO] 2019-06-02 14:59:55,776: topic[/traffic_waypoint] adding connection to [http://a917bedbf8a8:43107/], count 0
+[rospy.core][INFO] 2019-06-02 15:02:07,832: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2019-06-02 15:02:07,851: topic[/final_waypoints] removing connection to /styx_server
+[rospy.internal][INFO] 2019-06-02 15:02:07,852: topic[/final_waypoints] removing connection to /pure_pursuit
+[rospy.internal][INFO] 2019-06-02 15:02:07,852: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2019-06-02 15:02:07,858: topic[/traffic_waypoint] removing connection to http://a917bedbf8a8:43107/
+[rospy.internal][INFO] 2019-06-02 15:02:07,866: topic[/base_waypoints] removing connection to http://a917bedbf8a8:42147/
+[rospy.internal][ERROR] 2019-06-02 15:02:07,867: Unable to initiate TCP/IP socket to a917bedbf8a8:41739 (http://a917bedbf8a8:42147/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][INFO] 2019-06-02 15:02:07,868: topic[/current_pose] removing connection to http://a917bedbf8a8:34543/
+[rospy.impl.masterslave][INFO] 2019-06-02 15:02:07,868: signal-2
+[rospy.core][INFO] 2019-06-02 15:02:08,489: signal_shutdown [atexit]
